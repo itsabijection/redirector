@@ -1,0 +1,15 @@
+{
+  "name": "Redirector",
+  "description": "Redirect Dumb Sites to a Random Good Site",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://www.reddit.com/*",
+    "*://*.reddit.com/*",
+    "*://dominion.games/*",
+    "*://agar.io/*",
+    "webRequestBlocking"
+  ]
+}
